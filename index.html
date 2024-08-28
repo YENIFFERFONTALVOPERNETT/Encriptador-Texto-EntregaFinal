@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="input-section">
+                <textarea id="input-text" placeholder="Ingrese el texto aquí"></textarea>
+                <p class="validation-message">* Solo letras minúsculas y sin acentos.</p>
+                <div class="button-group">
+                    <button id="encrypt-btn">Cifrar</button>
+                    <button id="decrypt-btn">Descifrar</button>
+                </div>
+            </div>
+
+            <div class="output-section">
+                <img id="output-img" src="imagen.png" alt="Imagen decorativa">
+                <textarea id="output-text" readonly></textarea>
+                <button id="copy-btn">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desarrollado por [YENIFFER FONTALVO PERNETT] - 2024</p>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
